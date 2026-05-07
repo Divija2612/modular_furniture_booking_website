@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Decor-x | Book Your Dream Furniture</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('decor-x.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #ffcc00;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card {
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* important */
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.05); /* lift + zoom */
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3); /* deeper shadow */
+}
+
+.footer {
+    background: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+<div class="hero">
+    <div class="hero-content">
+        <h1>You Dream, We Deliver</h1>
+<h2>Book Your Dream Furniture</h2>
+        <p>Transform your space with premium modular furniture by Decor-x</p>
+        <a href="https://decor-x.com/" class="btn">Explore Now!</a>
+    </div>
+</div>
+
+<!-- FEATURES -->
+<div class="section">
+    <h2>Why Choose Decor-x?</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Modern Design</h3>
+            <p>Stylish and contemporary furniture for every home.</p>
+        </div>
+        <div class="card">
+            <h3>Custom Fit</h3>
+            <p>Tailored furniture solutions just for your space.</p>
+        </div>
+        <div class="card">
+            <h3>Easy Booking</h3>
+            <p>Quick and simple booking process in minutes.</p>
+        
+</div>
+    </div>
+</div>
+
+<!-- CTA -->
+<div class="section" style="background:#f4f4f4;">
+    <h2>Ready to Upgrade Your Space?</h2>
+    <p>Book your furniture today and redefine comfort.</p>
+    <a href="http://localhost/decor-x/index.html" class="btn">Book Now</a>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>© 2026 Decor-x Interior Pvt. Ltd.</p>
+</div>
+
+</body>
+</html>
