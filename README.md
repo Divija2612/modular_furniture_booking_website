@@ -78,7 +78,6 @@ decorex/
 ### 🏡 Landing Page (`landing.htm`)
 - Hero section with background image and call-to-action button
 - "Why Choose decorex?" section with animated feature cards
-- Footer with company info
 
 ### 📝 Booking Form (`index.html`)
 - Blurred background effect
@@ -93,12 +92,6 @@ decorex/
 
 ---
 
-## 📬 Contact
-
-**decorex Interior Pvt. Ltd.**  
-© 2026 All Rights Reserved
-
----
 
 ## 📌 Notes
 
